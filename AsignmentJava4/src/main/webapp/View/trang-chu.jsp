@@ -299,11 +299,11 @@
                                                     <span class="text-danger">*</span>
                                                 </label>
                                                 <div class="col-lg-6">
-                                                    <input name="nambh" type="number" class="form-control"
+                                                    <input name="nambh" type="number" min="1" class="form-control"
                                                            id="validationCustom05"
                                                            placeholder="Nhập số năm.." required="">
                                                     <div class="invalid-feedback">
-                                                        Vui lòng nhập
+                                                        Vui lòng nhập(định dạng: số nguyên>0)
                                                     </div>
                                                 </div>
                                             </div>
@@ -316,11 +316,11 @@
                                                     <span class="text-danger">*</span>
                                                 </label>
                                                 <div class="col-lg-6">
-                                                    <input name="soluongton" type="number" class="form-control"
+                                                    <input name="soluongton" type="number" min="1" class="form-control"
                                                            id="validationCustom11"
                                                            placeholder="Nhập số lượng tồn.." required="">
                                                     <div class="invalid-feedback">
-                                                        Vui lòng nhập
+                                                        Vui lòng nhập(định dạng: số nguyên>0)
                                                     </div>
                                                 </div>
                                             </div>
@@ -329,11 +329,11 @@
                                                     <span class="text-danger">*</span>
                                                 </label>
                                                 <div class="col-lg-6">
-                                                    <input name="gianhap" type="number" class="form-control"
+                                                    <input name="gianhap" type="number" min="1" class="form-control"
                                                            id="validationCustom06"
                                                            placeholder="Nhập giá nhập.." required="">
                                                     <div class="invalid-feedback">
-                                                        Vui lòng nhập
+                                                        Vui lòng nhập(định dạng: số nguyên>0)
                                                     </div>
                                                 </div>
                                             </div>
@@ -342,11 +342,11 @@
                                                     <span class="text-danger">*</span>
                                                 </label>
                                                 <div class="col-lg-6">
-                                                    <input name="giaban" type="number" class="form-control"
+                                                    <input name="giaban" type="number" min="1" class="form-control"
                                                            id="validationCustom07"
                                                            placeholder="Nhập giá bán.." required="">
                                                     <div class="invalid-feedback">
-                                                        Vui lòng nhập
+                                                        Vui lòng nhập(định dạng: số nguyên>0)
                                                     </div>
                                                 </div>
                                             </div>
@@ -535,12 +535,12 @@
                                         </label>
                                         <div class="col-lg-6">
                                             <input name="nambhUpdate" ng-value="object.nambh" ng-model="object.nambh"
-                                                   type="number"
+                                                   type="number" min="1"
                                                    class="form-control"
                                                    id="validationCustom051"
                                                    placeholder="Nhập số năm BH.." required="">
                                             <div class="invalid-feedback">
-                                                Vui lòng nhập
+                                                Vui lòng nhập(định dạng: số nguyên>0)
                                             </div>
                                         </div>
                                     </div>
@@ -553,12 +553,12 @@
                                         </label>
                                         <div class="col-lg-6">
                                             <input name="soluongtonUpdate" ng-value="object.soluongton"
-                                                   ng-model="object.soluongton" type="number"
+                                                   ng-model="object.soluongton" type="number" min="1"
                                                    class="form-control"
                                                    id="validationCustom111"
                                                    placeholder="Nhập số lượng tồn.." required="">
                                             <div class="invalid-feedback">
-                                                Vui lòng nhập
+                                                Vui lòng nhập(định dạng:số nguyên dương>0)
                                             </div>
                                         </div>
                                     </div>
@@ -568,12 +568,12 @@
                                         </label>
                                         <div class="col-lg-6">
                                             <input name="gianhapUpdate" ng-value="object.gianhap"
-                                                   ng-model="object.gianhap" type="number"
+                                                   ng-model="object.gianhap" type="number" min="1"
                                                    class="form-control"
                                                    id="validationCustom061"
                                                    placeholder="Nhập giá nhập.." required="">
                                             <div class="invalid-feedback">
-                                                Vui lòng nhập
+                                                Vui lòng nhập(định dạng: số nguyên>0)
                                             </div>
                                         </div>
                                     </div>
@@ -583,12 +583,12 @@
                                         </label>
                                         <div class="col-lg-6">
                                             <input name="giabanUpdate" ng-value="object.giaban" ng-model="object.giaban"
-                                                   type="number"
+                                                   type="number" min="1"
                                                    class="form-control"
                                                    id="validationCustom071"
                                                    placeholder="Nhập giá bán.." required="">
                                             <div class="invalid-feedback">
-                                                Vui lòng nhập
+                                                Vui lòng nhập(định dạng: số nguyên>0)
                                             </div>
                                         </div>
                                     </div>

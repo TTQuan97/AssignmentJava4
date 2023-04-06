@@ -221,11 +221,13 @@
                                                     <span class="text-danger">*</span>
                                                 </label>
                                                 <div class="col-lg-6">
-                                                    <input name="sdt" value="" type="text" class="form-control"
+                                                    <input name="sdt" value="" type="tel" class="form-control"
+                                                           minlength="10" maxlength="11"
+                                                           pattern="^[0]{1}[1-9]{9,10}$"
                                                            id="validationCustom07"
                                                            placeholder="Nhập sdt.." required>
                                                     <div class="invalid-feedback">
-                                                        Vui lòng nhập sdt
+                                                        Vui lòng nhập sdt(định dạng:0xxxx 10-11 số)
                                                     </div>
                                                 </div>
                                             </div>
@@ -277,11 +279,12 @@
                                                     <span class="text-danger">*</span>
                                                 </label>
                                                 <div class="col-lg-6">
-                                                    <input name="matkhau" type="text" class="form-control"
+                                                    <input name="matkhau" type="text" minlength="3"
+                                                           class="form-control"
                                                            id="validationCustom08"
                                                            placeholder="Nhập mật khẩu.." required>
                                                     <div class="invalid-feedback">
-                                                        Vui lòng nhập mật khẩu
+                                                        Vui lòng nhập mật khẩu(tối thiểu 3 kí tự)
                                                     </div>
                                                 </div>
                                             </div>
@@ -453,11 +456,13 @@
                                         <div class="col-lg-6">
                                             <input name="sdtUpdate" ng-model="object.sd" ng-value="object.sdt"
                                                    type="text"
+                                                   minlength="10" maxlength="11"
+                                                   pattern="^[0]{1}[1-9]{9,10}$"
                                                    class="form-control"
                                                    id="validationCustom077"
                                                    placeholder="Nhập sdt.." required>
                                             <div class="invalid-feedback">
-                                                Vui lòng nhập sdt
+                                                Vui lòng nhập sdt(định dạng:0xxxx 10-11 số)
                                             </div>
                                         </div>
                                     </div>
@@ -514,12 +519,12 @@
                                         </label>
                                         <div class="col-lg-6">
                                             <input name="matkhauUpdate" ng-model="object.matKhau"
-                                                   ng-value="object.matKhau" type="text"
+                                                   ng-value="object.matKhau" type="text" minlength="3"
                                                    class="form-control"
                                                    id="validationCustom088"
                                                    placeholder="Nhập mật khẩu.." required>
                                             <div class="invalid-feedback">
-                                                Vui lòng nhập mật khẩu
+                                                Vui lòng nhập mật khẩu(tối thiểu 3 kí tự)
                                             </div>
                                         </div>
                                     </div>

@@ -112,7 +112,7 @@ public class ChiTietSanPhamController extends HttpServlet {
         chiTietSanPham.setSanPham(sanPhamService.getOne(request.getParameter("sanpham")));
         chiTietSanPham.setDongSanPham(dongSanPhamService.getOne(request.getParameter("dongsp")));
         chiTietSanPham.setMauSac(mauSacService.getOne(request.getParameter("mausac")));
-        chiTietSanPham.setNhaSanXuat(nhaSanXuatService.getOne(request.getParameter("nsx")));
+        chiTietSanPham.setNhaSanXuat(nhaSanXuatService.getOne(request.getParameter("nhaSanXuat")));
         chiTietSanPham.setNamBH(Integer.parseInt(request.getParameter("nambh")));
         chiTietSanPham.setSoLuongTon(Integer.parseInt(request.getParameter("soluongton")));
         chiTietSanPham.setGiaNhap(new BigDecimal(request.getParameter("gianhap")));
